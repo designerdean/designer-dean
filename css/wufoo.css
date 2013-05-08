@@ -1,0 +1,88 @@
+form.wufoo ul {
+	margin: 0;
+}
+
+.wufoo .info {
+	display:none;
+}
+
+.wufoo label.desc {
+	color: #2d2f45;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.wufoo input.text {
+    background-color: #d7d7d7;
+    border: solid 1px #b2b2b2;
+    color: #2d2f45;
+    font-size: 14px;
+    max-width: 200px;
+    padding: 6px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.wufoo textarea.textarea {
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+    background-color: #d7d7d7;
+    border: none;
+    border: solid 1px #b2b2b2;
+    color: #2d2f45;
+    font-size: 14px;
+    min-width: none;
+    max-width: none;    
+    padding: 6px;
+    vertical-align: middle;
+}
+
+.leftLabel li, .rightLabel li {
+	padding: 0px 0px 15px 0px;
+}
+
+.leftLabel .desc, .rightLabel .desc {
+	margin: 0px;
+	padding: 0px;
+}
+
+.leftLabel li div, .rightLabel li div {
+	width: auto;
+}
+
+.noI .leftLabel .buttons div, .noI .rightLabel .buttons div {
+	margin: 0px;
+}
+
+.noI .leftLabel .buttons, .noI .rightLabel .buttons {
+
+}
+
+form li {
+	padding: 0 0 10px 0;
+}
+
+form li.buttons input {
+    background-color: #424466;
+    border: solid 1px #2d2f45;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 6px;
+    vertical-align: middle;
+    width: auto;
+}
+
+.safari input.btTxt {
+	font-size: 14px;
+}
+
+form li.buttons {
+	padding: 0px;
+}
