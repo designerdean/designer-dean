@@ -288,7 +288,7 @@ footer a:hover:visited {
 ----------------------------------------------- */
 
 .spotlight {
-    background: url('../img/Portfolio/spotlight.png') no-repeat right bottom;
+    background: url('../img/spotlight.png') no-repeat right bottom;
     margin: 0 auto;
     height: 290px;
     text-align: center;
