@@ -171,6 +171,23 @@ nav > ul > li:first-child a {
    	max-width: 960px;
 }
 
+#secondary {
+  *zoom: 1;
+}
+
+#secondary:before,
+#secondary:after {
+  content: "";
+  display: table;
+}
+
+#secondary:after {
+  clear: both;
+}
+
+
+
+
 #secondary h3 {
     color: #ffffff;
     font-family: 'Cantarell', sans-serif;
@@ -180,7 +197,7 @@ nav > ul > li:first-child a {
 }
 
 #secondary > div:first-child {
-    border-bottom: solid 1px #474953;
+    /*border-bottom: solid 1px #474953;*/
     padding: 35px 0px;
 }
 
@@ -243,6 +260,8 @@ nav > ul > li:first-child a {
 ----------------------------------------------- */
 
 footer {
+    border-top: solid 1px #474953;
+    /*clear: both;*/
     margin: auto;
     padding: 35px 20px 40px 20px;
     text-align: center;
